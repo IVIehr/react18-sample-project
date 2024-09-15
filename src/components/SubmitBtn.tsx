@@ -7,7 +7,7 @@ const SubmitBtn = (props: SubmitBtnProps) => {
   return (
     <button
       type="submit"
-      className="btn bg-amber-600 btn-block text-white"
+      className="btn bg-primary btn-block text-white"
       disabled={isSubmitting}
     >
       {isSubmitting ? (
