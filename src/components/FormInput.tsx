@@ -10,6 +10,7 @@ const FormInput = (props: FormInputProps) => {
         name={name}
         defaultValue={defaultValue}
         className="input input-bordered "
+        autoComplete=""
       />
     </div>
   );
